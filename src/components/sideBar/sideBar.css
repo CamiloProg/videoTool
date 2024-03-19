@@ -1,0 +1,109 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+li:hover {
+  background-color: #4a01fb;
+  color: white;
+}
+section {
+  width: 100%;
+}
+li {
+  display: flex;
+  color: black;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.logo {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: #4a01fb;
+  border-radius: 10px;
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  background-color: white;
+  margin: 10px;
+  height: calc(100% - (1 * 10px));
+  padding: 10px;
+  position: relative;
+  border-radius: 10px;
+}
+.storage-bar {
+  width: 100%;
+  height: 5px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.fill {
+  width: 68%;
+  height: 100%;
+  background-color: #4a01fb;
+  border-radius: 5px;
+}
+.storage {
+  background-color: rgb(237, 237, 237);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 80%;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 30px;
+}
+.storage p {
+  font-size: small;
+}
+.storageText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.storageText h6 {
+  font-weight: 300;
+  font-size: 8px;
+}
+.containerStorage {
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+.buttonStorage {
+  border: none;
+  color: white;
+  width: fit-content;
+  padding: 3px 10px;
+  align-self: flex-start;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #4a01fb;
+  cursor: pointer;
+}
+.backButton {
+  border: none;
+  background-color: transparent;
+  align-self: flex-end;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.selectedSideBar {
+  background-color: #4a01fb;
+  color: white;
+}

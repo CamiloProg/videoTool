@@ -1,0 +1,80 @@
+.videosHome {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 80%;
+  background-color: white;
+  height: calc(100% - (1 * 10px));
+  margin: 10px;
+  padding: 20px 30px;
+  position: relative;
+  border-radius: 10px;
+}
+.options {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+.selected {
+  color: #4a01fb;
+  border-bottom: 3px solid #4a01fb;
+  padding-inline: 10px;
+}
+.buttonVideos {
+  border: none;
+  padding: 8px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.buttonVideosBlue {
+  border: none;
+  background-color: #4a01fb;
+  color: white;
+  padding: 8px 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.navBarVideos {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  color: #888;
+  border: 1px solid #ccc;
+  padding: 8px;
+  width: 500px;
+  border-radius: 4px;
+}
+
+.searchIcon {
+  margin-right: 8px;
+  border-right: 2px solid #888;
+  padding-right: 10px;
+  color: #888;
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding: 4px;
+}
+
+.search-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}

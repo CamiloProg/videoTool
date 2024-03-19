@@ -23,7 +23,7 @@ _Clona este repositorio en tu maquina local_
 _Luego en tu terminal escribe:_
 
 ```
-git clone https://github.com/CamiloProg/videoTool
+git clone https://github.com/CamiloProg/videoTool.git
 ```
 _Instala las dependencias necesarias_
 

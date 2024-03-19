@@ -1,5 +1,7 @@
 # Prueba BeMaster || App de peliculas
 
+![image](https://github.com/CamiloProg/videoTool/assets/106632070/f2007e23-6b16-4fa4-982a-b2f70171b51d)
+
 
 Pagina web donde podras ver un dashboard sobre las estadisticas y los archivos que hay guardados, en este caso, videos dentro de carpetas: 
 

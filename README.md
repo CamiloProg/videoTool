@@ -1,4 +1,4 @@
-# Prueba BeMaster || App de peliculas
+# Prueba BeMaster || VideoTool
 
 ![image](https://github.com/CamiloProg/videoTool/assets/106632070/f2007e23-6b16-4fa4-982a-b2f70171b51d)
 
@@ -23,7 +23,7 @@ _Clona este repositorio en tu maquina local_
 _Luego en tu terminal escribe:_
 
 ```
-git clone https://github.com/CamiloProg/my-disney-plus-app.git
+git clone https://github.com/CamiloProg/videoTool
 ```
 _Instala las dependencias necesarias_
 
@@ -41,4 +41,4 @@ npm run dev
 
  ## Deploy 📈 
 Aqui puedes probar la pagina desde una web ya creada
-[Demo](https://main--movieapp-bemaster.netlify.app/)
+[Demo](https://videotool.netlify.app/)
